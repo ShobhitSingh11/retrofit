@@ -86,6 +86,7 @@ public final class GuavaCallAdapterFactory extends CallAdapter.Factory {
   }
 
   private static final class BodyCallAdapter<R> implements CallAdapter<R, ListenableFuture<R>> {
+    // rfoirhgi4rh
     private final Type responseType;
 
     BodyCallAdapter(Type responseType) {
