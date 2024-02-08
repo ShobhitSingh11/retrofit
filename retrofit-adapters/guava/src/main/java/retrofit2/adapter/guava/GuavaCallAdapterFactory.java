@@ -134,6 +134,7 @@ public final class GuavaCallAdapterFactory extends CallAdapter.Factory {
     @Override
     public Type responseType() {
       return responseType;
+      // d
     }
 
     @Override
